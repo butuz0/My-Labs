@@ -1,8 +1,8 @@
 import math
 
-b0 = int(input ("b0 = "))
-q = int(input ("q = "))
-n = int(input ("n = "))
+b0 = float(input ("b0 = "))
+q = float(input ("q = "))
+n = float(input ("n = "))
 
 b = b0 * q ** (n - 1)
 
