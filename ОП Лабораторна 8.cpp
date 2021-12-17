@@ -48,9 +48,8 @@ void bubbleSort(int **arr, int size)
 }
 void diagonalSort(int **arr, int size)
 {
-	int j = 0, i = 0;
 	{
-		for (i; i < size - 1; i++)
+		for (int i = 0; i < size - 1; i++)
 		{
 			if (arr[i][j] < arr[i + 1][j + 1])
 			{
@@ -62,7 +61,6 @@ void diagonalSort(int **arr, int size)
 					arr[i + 1][j] = tmp;
 				}
 			}
-			j++;
 		}
 	}
 }
